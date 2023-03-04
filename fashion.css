@@ -1,0 +1,415 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: "Oswald";
+    letter-spacing: -1px;
+    box-sizing: border-box;
+}
+nav
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 12px 0 8px;
+    height: 2.5em; */
+}
+nav i{
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* padding-bottom: 15px; */
+   
+   
+}
+nav i:hover
+{
+    color: black;
+    background-color: gainsboro;
+    
+}
+.sec1
+{
+    text-align: center;
+    padding-top: 55px;
+}
+main .sec1 h1{
+    font-weight: 600;
+    font-size: 3em;
+    margin-bottom: 5px;
+    
+}
+main .sec1 p,span{
+    font-size: 1em;
+    font-weight: 300;
+    color: black;
+    
+}
+main .sec1 p
+{
+    margin-bottom: 45px;
+    letter-spacing: 0.25px;
+}
+main .sec1 span
+{
+    padding: 3px;
+    padding-left:5px;
+    padding-right:5px;
+    background-color: black;
+    color: white;
+    margin-left: 2px;
+}
+main .sec2 img
+{
+    width: 100%;
+    vertical-align: middle;
+}
+main .sec2 div.inside 
+{
+    position: absolute;
+    top: 102%;
+    color: white;
+    width: 40%;
+}
+main .sec2 div.inside p
+{
+   margin-left: 4%;
+    color: white;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+}
+main .sec2 div.inside h2
+{
+    font-weight: bolder;
+    font-size: 4em;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    letter-spacing: 1.5px;
+}
+main .sec2 div.inside button
+{
+    padding: 17px;
+    margin-left: 3%;
+    background-color: gainsboro;
+    border: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1em;
+    opacity: 0.6;
+}
+.sec3 
+{
+    background-color: gainsboro;
+    display: flex;
+}
+.sec3 .right
+{
+    display: flex;
+    background-color: gainsboro;
+    width: 70%;
+    flex-direction: column;
+}
+.ri1, .ri2, .ri3
+{
+    background-color: white;
+    margin: 34px;
+    padding: 29px;
+    
+}
+.h2point
+{
+    
+/* font-weight: 200; */
+letter-spacing: 1.5px;
+font-size: 1.5em;
+text-align: center;
+font-weight: 500;
+margin-bottom: 9px;
+}
+.h4point
+{
+font-weight: 500;
+text-align: center;
+letter-spacing: 1px;
+font-size:1em ;
+margin-bottom: 9px;
+}
+.sppoint
+{
+color: rgb(163, 159, 159);
+letter-spacing: 1.5px;
+}
+img.big
+{
+    width: 100%;
+    margin: 29px 0 29px 0;
+}
+hr
+{
+   
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+p.more_para
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 21px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: black;
+    font-size: 1em;
+}
+ div.buttons
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+button.l1
+{
+border: 1px solid gray;
+background-color: white;
+color: black;
+padding: 10px;
+width: 80px;
+
+}
+button.l2
+{
+background-color: black;
+color: white;
+padding: 9px;
+width: 117px;
+
+}
+button.l2 span
+{
+background-color: white;
+color: black;
+padding: 3px 8px 3px 8px;
+
+}
+.sec3 .right .ri1 img.smoke
+{
+    margin-top: 35px;
+    width: 93px;
+    display: inline-block;
+    margin-right: 45px;
+}
+.sec3 .right .ri1 div.para
+{
+    display: inline-block;
+    position: relative;
+    bottom: 27px;
+    
+}
+.sec3 .right .ri1 div.para .into1
+{
+   font-size: 1.5em;
+   font-weight: 400;
+   margin-bottom: 25px;
+}
+.sec3 .right .ri1 div.para .into2
+{
+   font-size: 0.65em;
+  
+    
+}
+.sec3 .right .ri1 div.para .into23
+{
+    font-size: 1em;
+    font-weight: lighter;
+}
+.sec3 .left
+{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin-right: 15px;
+}
+img.big1
+{
+    width: 100%;
+    filter: grayscale(60%);
+   vertical-align: middle;
+}
+
+div.imginside
+{
+   background-color: black;
+   color: white;
+padding: 22px;
+}
+
+.le1, .le2, .le3, .le4, .le5,.le6, .le7
+{
+    margin-left: unset;
+    margin-top: 32px;
+    margin-right: 20px;
+}
+
+.le2 h2, .le3 h2, .le4 h2, .le5 h2, .le6 h2, .le7 h2
+{
+    margin-top: 22px;
+    background-color: black;
+    color: white;
+ padding: 12px; 
+ font-weight: 400;
+}
+.le2 ul, .le4 ul{
+    list-style: none;
+
+
+}
+.le2 ul li
+{
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 0%;
+    height: 88px;
+}
+.le2 ul li img
+{
+    width: 63px;
+    
+}
+.le2 ul li p#my
+{
+    font-family: "Open sans";
+    position: relative;
+    bottom: 64px;
+    margin-left: 14px;
+    left: 61px;
+    font-weight: 800;
+    width: fit-content;
+}
+.le2 ul li:hover
+{
+    background-color: lightgray;
+}
+.textinside
+{
+    background-color: white;
+    padding: 5em;
+}
+.inin
+{
+    text-align: center;
+    background-color: #dfdfdf;
+    margin: -53px;
+    padding: 90px;
+}
+.le4 ul
+{
+    background-color: white;
+    padding: 2em;
+height: 173px;
+}
+.le4 ul li{
+    display: inline-block;
+background-color: lightgray;
+color: black;
+padding: 1px 8px 1px 8px;
+width: 45px;
+margin-left: 5px;
+margin-bottom: 5px;
+font-size: 0.95em;
+text-align: center;
+}
+.le4 ul li#black{
+    background-color: black;
+    color: white;
+    padding:5px 8px 5px 8px;
+    width: 45px;
+    text-align: center;
+}
+.imagenary
+{
+    display: flex;
+    flex-direction: row;
+background-color: white;
+/* padding: 25px; */
+flex-wrap: wrap;
+padding: 20px 28px 10px 26px;
+}
+.imagenary img
+{
+    width: 140px;
+    margin-right: 23px;
+    margin-bottom: 19px;
+}
+.icons
+{
+    padding:10px 10px 10px 10px ;
+    background-color: white;
+    font-size: 22px;
+
+}
+.icons i
+{
+    margin-left: 5px;
+}
+.imagenary p
+{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5px;
+}
+input
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+   border: 1px solid lightgray;
+}
+.le7 button
+{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 85, 0);
+    border: none;
+    margin: 10px 0 10px 0;
+}
+footer
+{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    padding-left: 35px;
+    height: 100px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer>button
+{
+    padding:10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+}
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+footer i{
+    margin-right: 5px;
+}
+@media screen and (max-width:900px){
+    .sec3
+    {
+       display: flex;
+       flex-direction: column; 
+    }
+   
+}
